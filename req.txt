@@ -1,0 +1,10 @@
+##############################################
+REQUAIERMENTS FOR VOID RICE
+##############################################
+
+1. follow the void wiki guide
+2. font-awesome
+3. git clone "the repo you made earlier"
+4. install the void-repo-nonfree repo
+5. link dbus ---    "sudo ln -s /etc/sv/dbus /var/service"
+6. install the nvidia nonfree drivers
