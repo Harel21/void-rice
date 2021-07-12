@@ -1,0 +1,5 @@
+sudo usermod -aG audio <username>
+
+sudo xbps-install -Sy alsa-{utils,firmware,tools} apulse bluez{,-alsa} ffmpeg alsa-plugins{,-ffmpeg,-pulseaudio} pulseaudio pavucontrol
+
+sudo ln -s /etc/sv/alsa /var/service/
